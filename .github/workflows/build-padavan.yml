@@ -81,6 +81,7 @@ jobs:
         ##内网穿透服务##
         echo "CONFIG_FIRMWARE_INCLUDE_ALDRIVER=n" >> .config  #ALDRIVER  ~3m
         echo "CONFIG_FIRMWARE_INCLUDE_MENTOHUST=n" >> .config #mentohust
+        echo "CONFIG_FIRMWARE_INCLUDE_FRPC=y" >> .config #内网穿透FRPC
         
         ##流控QOS##
         echo "CONFIG_FIRMWARE_INCLUDE_SQM=y" >> .config #SQM QOS#CPU超频
